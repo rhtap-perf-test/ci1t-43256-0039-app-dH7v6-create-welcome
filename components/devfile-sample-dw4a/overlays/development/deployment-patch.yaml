@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dw4a
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0039-tenant/ci1t-43256-0039-app/devfile-sample-dw4a@sha256:2ee29fb7845d0fd70e09b805e61d289c51edbecdde3f4ae8f079464acfa1e8b6
+        name: my-nodejs
+        resources: {}
+status: {}
